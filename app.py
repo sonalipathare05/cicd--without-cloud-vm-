@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Step 2: Define a route (the URL the user visits)
 @app.route('/')
 def home():
-    return "Hello from my first CI/CD project!"
+    return "Hello from my first CI/CD project! 22"
 
 # Step 3: Run the app
 if __name__ == '__main__':
